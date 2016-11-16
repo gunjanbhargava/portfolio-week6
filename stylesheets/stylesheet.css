@@ -1,0 +1,64 @@
+body{
+  margin;0
+  padding:0;
+  background: #ccc;
+}
+
+#container{
+  width:990px;
+  height:1000px;
+  background-color: rgb(170,0,0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+}
+
+h1{
+  padding-left: 22rem;
+}
+
+.aboutme{
+  padding-left:26rem;
+  color:black;
+}
+
+img{
+  width:55px;
+  height:55px;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.resume{
+  position:absolute;
+  padding-left:5rem;
+  top:200px;
+  color:black;
+}
+
+.snowboard{
+  position: absolute;
+  left:550px;
+  top: 350px;
+  color:black;
+}
+
+h2{
+  padding-left:25rem;
+}
+
+.vector{
+  position:absolute;
+  left:750px;
+  top:500px;
+  color:black;
+}
+
+.manipulation{
+  position:absolute;
+  left: 950px;
+  top:650px;
+  color:black;
+}
+
+

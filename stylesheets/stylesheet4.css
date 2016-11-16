@@ -1,0 +1,41 @@
+img{
+  width:346px;
+  height:347px;
+  border:0;
+  
+}
+
+body{
+  background-color: burlywood;
+}
+
+p{
+  font-family: 'Abel', sans-serif;
+  font-size:40px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-style:italic;
+}
+
+#portfolio-items:after{
+  display:block;
+  content:'';
+  clear: both;
+  
+}
+
+.portfolio-items article:nth-of-type(odd) .item-image{float:left ;}
+/*.portfolio-items article:nth-of-type(even) .item-description{float:right ;}*/
+
+
+.item-image{
+  clear:both;
+}
+
+.item-description{
+  clear:both;
+}
+
+/*.portfolio-items article:nth-of-type(even) .item-description{float:left ;}*/
+.portfolio-items article:nth-of-type(even) .item-image{float:right ;}
+
+

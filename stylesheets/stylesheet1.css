@@ -1,0 +1,21 @@
+body {         
+  background-color: bisque;
+ }
+img{
+  width: 200px;
+  height:400px;
+  float:right;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  
+}
+
+footer{
+  clear:both;
+  bottom:0;
+}
+
+img:hover{
+  -webkit-transform: rotate(360deg);
+  transform:rotate(360deg);
+}
